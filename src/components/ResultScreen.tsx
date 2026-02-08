@@ -8,7 +8,7 @@ import {
   Shield,
   Star,
   PieChart,
-  MessageCircle,
+
   Mail,
   ChevronDown,
   ChevronUp,
@@ -181,7 +181,7 @@ export default function ResultScreen({
               M
             </div>
             <span className="text-white/80 text-sm font-medium">
-              Mutual Fund Dost
+              InvestorPersona
             </span>
           </div>
         </div>
@@ -379,29 +379,17 @@ export default function ResultScreen({
               </h3>
               <p className="text-white/80 mb-6 max-w-lg mx-auto">
                 Get a personalized investment plan tailored to your{" "}
-                {persona.name} personality. Our experts at Mutual Fund Dost will
-                guide you.
+                {persona.name} personality. Our experts will guide you.
               </p>
 
               {!showLeadForm ? (
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <button
-                    onClick={() => setShowLeadForm(true)}
-                    className="inline-flex items-center justify-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all cursor-pointer"
-                  >
-                    <Mail className="w-4 h-4" />
-                    Get My Investment Plan
-                  </button>
-                  <a
-                    href="https://wa.me/919876543210?text=Hi!%20I%20just%20took%20the%20InvestorPersona%20quiz%20and%20I%27m%20a%20"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-green-500 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:bg-green-600 hover:scale-105 transition-all"
-                  >
-                    <MessageCircle className="w-4 h-4" />
-                    Chat on WhatsApp
-                  </a>
-                </div>
+                <button
+                  onClick={() => setShowLeadForm(true)}
+                  className="inline-flex items-center justify-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all cursor-pointer"
+                >
+                  <Mail className="w-4 h-4" />
+                  Get My Investment Plan
+                </button>
               ) : (
                 <form
                   onSubmit={handleFormSubmit}
@@ -455,7 +443,7 @@ export default function ResultScreen({
         {/* Footer */}
         <footer className="text-center pt-4 pb-8">
           <p className="text-gray-400 text-xs">
-            By Mutual Fund Dost &middot; For educational purposes only &middot;
+            By InvestorPersona &middot; For educational purposes only &middot;
             Not financial advice &middot; Mutual fund investments are subject to
             market risks.
           </p>

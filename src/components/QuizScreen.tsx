@@ -54,7 +54,7 @@ export default function QuizScreen({ onComplete }: QuizScreenProps) {
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center text-white font-bold text-sm">
             M
           </div>
-          <span className="text-white/80 text-sm font-medium">Mutual Fund Dost</span>
+          <span className="text-white/80 text-sm font-medium">InvestorPersona</span>
         </div>
         <span className="text-white/60 text-sm">
           {currentQ + 1} of {questions.length}

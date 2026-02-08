@@ -15,7 +15,7 @@ export default function LandingScreen({ onStart }: LandingScreenProps) {
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center text-white font-bold text-base shadow-lg">
             M
           </div>
-          <span className="text-white font-semibold">Mutual Fund Dost</span>
+          <span className="text-white font-semibold">InvestorPersona</span>
         </div>
       </header>
 
@@ -77,7 +77,7 @@ export default function LandingScreen({ onStart }: LandingScreenProps) {
       {/* Footer */}
       <footer className="text-center pb-6 px-4">
         <p className="text-white/30 text-xs">
-          By Mutual Fund Dost &middot; For educational purposes only &middot; Not financial advice
+          By InvestorPersona &middot; For educational purposes only &middot; Not financial advice
         </p>
       </footer>
     </div>

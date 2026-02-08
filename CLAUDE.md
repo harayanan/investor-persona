@@ -1,6 +1,6 @@
 # InvestorPersona
 
-An interactive investing personality quiz by Mutual Fund Dost. Users answer 8 fun scenario-based questions to discover which of 8 investor personas they are.
+An interactive investing personality quiz. Users answer 8 fun scenario-based questions to discover which of 8 investor personas they are.
 
 ## Stack
 - Next.js 16 + React 19 + TypeScript
@@ -37,10 +37,10 @@ src/
 8. **The Strategist** ♟️ — Tactical, risk-adjusted optimizer
 
 ## Branding
-- Mutual Fund Dost brand identity
+- InvestorPersona brand identity
 - Blue-600 → Indigo-700 → Purple-800 gradient
 - Geist font family
-- Lead capture: Email form + WhatsApp CTA
+- Lead capture: Email form
 
 ## Development
 ```bash

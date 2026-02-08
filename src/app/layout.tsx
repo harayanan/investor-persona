@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "InvestorPersona — Discover Your Investing Personality | Mutual Fund Dost",
+  title: "InvestorPersona — Discover Your Investing Personality",
   description:
     "Take our fun 2-minute quiz to discover your investor persona. Are you a Trailblazer, Wise Owl, or Zen Investor? Get personalized investment insights.",
   keywords: [
