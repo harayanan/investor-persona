@@ -133,11 +133,11 @@ export const personas: Persona[] = [
     color: "from-rose-600 to-pink-500",
     colorHex: "#e11d48",
     description:
-      "When everyone is selling, you're buying. When everyone is euphoric, you're quietly taking profits. You trust your conviction over consensus. Your best investments came when the market called you crazy — and you didn't flinch.",
-    superpower: "Iron conviction and the courage to go against the herd",
-    kryptonite: "Being contrarian just for the sake of it — not every falling knife is a bargain",
+      "You see what others miss — the rhythm of market cycles. When greed peaks and everyone is euphoric, you're quietly taking profits. When fear takes over and panic selling begins, you're loading up. You study where we are in the cycle of credit, sentiment, and valuations, and position yourself ahead of the turn.",
+    superpower: "Reading market cycles and having the conviction to act against the crowd at turning points",
+    kryptonite: "Mistiming the cycle — being early is the same as being wrong if you run out of patience",
     famousMatch: "Howard Marks",
-    famousMatchDesc: "Co-founder of Oaktree Capital, master of contrarian investing",
+    famousMatchDesc: "Co-founder of Oaktree Capital, author of 'Mastering the Market Cycle'",
     idealPortfolio: [
       { label: "Distressed/Turnaround Stocks", pct: 30, color: "#e11d48" },
       { label: "Deep Value Picks", pct: 25, color: "#f43f5e" },
@@ -145,7 +145,7 @@ export const personas: Persona[] = [
       { label: "Corporate Bonds", pct: 15, color: "#ec4899" },
       { label: "Cash for Opportunities", pct: 10, color: "#fb7185" },
     ],
-    tip: "Validate your contrarian thesis with data. Being different is only valuable when you're also right.",
+    tip: "Track cycle indicators — credit spreads, PE bands, sentiment surveys. Being contrarian without cycle awareness is just guessing.",
   },
   {
     id: "explorer",
