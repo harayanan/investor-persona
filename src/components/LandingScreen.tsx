@@ -4,9 +4,10 @@ import { ArrowRight, TrendingUp, Brain, Zap, Users } from "lucide-react";
 
 interface LandingScreenProps {
   onStart: () => void;
+  onExplorePersonas: () => void;
 }
 
-export default function LandingScreen({ onStart }: LandingScreenProps) {
+export default function LandingScreen({ onStart, onExplorePersonas }: LandingScreenProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-indigo-700 to-purple-800 flex flex-col">
       {/* Header */}
@@ -77,7 +78,10 @@ export default function LandingScreen({ onStart }: LandingScreenProps) {
       {/* Footer */}
       <footer className="text-center pb-6 px-4">
         <p className="text-white/30 text-xs">
-          By InvestorPersona &middot; For educational purposes only &middot; Not financial advice
+          <button onClick={onExplorePersonas} className="underline hover:text-white/50 transition-colors cursor-pointer">
+            Explore all 8 personas
+          </button>
+          {" "}&middot; By InvestorPersona &middot; For educational purposes only &middot; Not financial advice
         </p>
       </footer>
     </div>

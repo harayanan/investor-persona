@@ -4,9 +4,10 @@ import { useState } from "react";
 import LandingScreen from "@/components/LandingScreen";
 import QuizScreen from "@/components/QuizScreen";
 import ResultScreen from "@/components/ResultScreen";
+import AllPersonasScreen from "@/components/AllPersonasScreen";
 import { calculatePersona } from "@/lib/scoring";
 
-type Screen = "landing" | "quiz" | "result";
+type Screen = "landing" | "quiz" | "result" | "personas";
 
 export default function Home() {
   const [screen, setScreen] = useState<Screen>("landing");
@@ -40,5 +41,19 @@ export default function Home() {
     );
   }
 
-  return <LandingScreen onStart={() => setScreen("quiz")} />;
+  if (screen === "personas") {
+    return (
+      <AllPersonasScreen
+        onBack={() => setScreen("landing")}
+        onStartQuiz={() => setScreen("quiz")}
+      />
+    );
+  }
+
+  return (
+    <LandingScreen
+      onStart={() => setScreen("quiz")}
+      onExplorePersonas={() => setScreen("personas")}
+    />
+  );
 }
